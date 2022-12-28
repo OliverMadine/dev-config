@@ -1,2 +1,3 @@
-# dev-config
-Development config files
+# Development Config Files
+
+Safe keeping for all things config
