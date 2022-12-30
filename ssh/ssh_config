@@ -4,7 +4,7 @@ Host *
 
 Host gpu1 gpu2 lab1 lab2 lab3 lab4 lab5
    User ojm20
-   ProxyCommand /Users/olliemadine/scripts/random-shell %h %p
+   ProxyCommand ~/scripts/random-shell %h %p
    IdentityFile ~/.ssh/id_rsa_icl
 
 Host gpu1

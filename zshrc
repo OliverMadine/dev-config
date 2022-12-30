@@ -5,7 +5,7 @@ PROMPT="%1~ %# "
 ssh-add --apple-load-keychain -q
 
 # Scripts
-export PATH="$PATH:/Users/olliemadine/scripts"
+export PATH="$PATH:~/scripts"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
