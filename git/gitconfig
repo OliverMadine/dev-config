@@ -1,0 +1,10 @@
+[core]
+	excludesfile = ~/.gitignore
+	autocrlf = input
+	editor = nano
+	ignorecase = true
+[user]
+	name = Oliver Madine
+	email = oliver.madine@gmail.com
+[commit]
+	status = false
