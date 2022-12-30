@@ -1,0 +1,5 @@
+#!/bin/sh
+
+shell="shell$((1 + $RANDOM % 5))"
+
+ssh -q ${2:+-W $1:$2} $shell

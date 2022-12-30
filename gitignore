@@ -1,0 +1,26 @@
+# Python common virtual environment
+venv/
+
+# MacOS folder config
+.DS_Store
+
+# VScode workspace config
+.vscode/
+
+# Scala language server config
+.metals/
+.bloop/
+.ammonite/
+metals.sbt
+.scalafmt.conf
+
+# IntelliJ config
+.bsp/
+.idea/
+
+# gitlab-runner
+config
+metals.lock.db
+
+# Environment
+.env

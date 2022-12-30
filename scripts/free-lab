@@ -1,0 +1,5 @@
+#!/bin/sh
+
+shell="shell$((1 + $RANDOM % 5))"
+free=$(ssh ${shell} "/vol/linux/bin/freelabmachine")
+ssh -q -o ProxyCommand="ssh -q -W %h:%p ${shell} " -o User="ojm20" "${free}"
