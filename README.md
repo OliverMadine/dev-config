@@ -1,3 +1,3 @@
 # Development Config
 
-Safe keeping for all things config
+Safe keeping for all things config.
