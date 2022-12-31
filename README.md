@@ -1,3 +1,3 @@
-# Development Config Files
+# Development Config
 
 Safe keeping for all things config
