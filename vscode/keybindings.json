@@ -1,25 +1,25 @@
 [
-    {
-      "command": "editor.action.revealDefinition",
-      "key": "cmd+;",
-      "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
-    },
-    {
-      "command": "workbench.action.closeActiveEditor",
-      "key": "cmd+w"
-    },
-    {
-      "command": "workbench.action.focusPanel",
-      "key": "cmd+2"
-    },
-    {
-      "command": "workbench.action.terminal.kill",
-      "key": "cmd+w",
-      "when": "terminalFocus"
-    },
-    {
-      "command": "workbench.view.scm",
-      "key": "shift+cmd+g",
-      "when": "workbench.scm.active"
-    }
-  ]
+  {
+    "command": "editor.action.revealDefinition",
+    "key": "cmd+;",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "command": "workbench.action.closeActiveEditor",
+    "key": "cmd+w"
+  },
+  {
+    "command": "workbench.action.focusPanel",
+    "key": "cmd+2"
+  },
+  {
+    "command": "workbench.action.terminal.kill",
+    "key": "cmd+w",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.view.scm",
+    "key": "shift+cmd+g",
+    "when": "workbench.scm.active"
+  }
+]
