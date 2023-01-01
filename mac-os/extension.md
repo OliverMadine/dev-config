@@ -1,6 +1,6 @@
-1. Rectangle
-2. TopNotch
-3. Vivid
-4. Hidden Bar
-5. AdGuard for Safari
-6. QuickShade
+- TopNotch
+- Vivid
+- Hidden Bar
+- AdGuard
+- QuickShade
+- [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
