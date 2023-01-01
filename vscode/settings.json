@@ -13,6 +13,7 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.smoothScrolling": true,
   "files.autoSave": "afterDelay",
+  "git.allowForcePush": true,
   "haskell.formattingProvider": "stylish-haskell",
   "haskell.manageHLS": "GHCup",
   "haskell.plugin.moduleName.globalOn": false,
