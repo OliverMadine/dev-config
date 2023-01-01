@@ -14,6 +14,7 @@
   "editor.smoothScrolling": true,
   "files.autoSave": "afterDelay",
   "git.allowForcePush": true,
+  "git.confirmSync": false,
   "haskell.formattingProvider": "stylish-haskell",
   "haskell.manageHLS": "GHCup",
   "haskell.plugin.moduleName.globalOn": false,
