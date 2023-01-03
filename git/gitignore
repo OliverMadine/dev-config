@@ -8,9 +8,10 @@ venv/
 .vscode/
 
 # Scala language server config
-.metals/
 .bloop/
 .ammonite/
+.metals/
+metals.lock.db
 metals.sbt
 .scalafmt.conf
 
@@ -20,7 +21,6 @@ metals.sbt
 
 # gitlab-runner
 config
-metals.lock.db
 
 # Environment
 .env
