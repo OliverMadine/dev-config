@@ -1,6 +1,3 @@
-- TopNotch
-- Vivid
 - Hidden Bar
 - AdGuard
-- QuickShade
 - [SwiftDefaultApps](https://github.com/Lord-Kamina/SwiftDefaultApps)
