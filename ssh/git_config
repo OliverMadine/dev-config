@@ -1,9 +1,7 @@
 Host gitlab.doc.ic.ac.com
    HostName gitlab.com
    User git
-   IdentityFile ~/.ssh/id_rsa_icl
 
 Host github.com
    HostName github.com
    User git
-   IdentityFile ~/.ssh/id_rsa_personal

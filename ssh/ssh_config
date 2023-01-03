@@ -1,37 +1,36 @@
 Host *
-   UseKeychain yes
-   AddKeysToAgent yes
-
-Host gpu1 gpu2 lab1 lab2 lab3 lab4 lab5
-   User ojm20
-   ProxyCommand ~/scripts/random-shell %h %p
-   IdentityFile ~/.ssh/id_rsa_icl
-
-Host gpu1
-   HostName gpu23.doc.ic.ac.uk
-
-Host gpu2
-   HostName gpu20.doc.ic.ac.uk
-
-Host lab1
-   HostName ray15.doc.ic.ac.uk
-
-Host lab2
-   HostName ray03.doc.ic.ac.uk
-
-Host lab3
-   HostName ray08.doc.ic.ac.uk
-
-Host lab4
-   HostName edge18.doc.ic.ac.uk
-
-Host lab5
-   HostName edge09.doc.ic.ac.uk
-
-Host shell1 shell2 shell3 shell4 shell5
-   HostName %h.doc.ic.ac.uk
-   User ojm20
-   IdentityFile ~/.ssh/id_rsa_icl
-
-# We use a separate config file for git as to exclude from vscode remote ssh explorer 
-Include ~/.ssh/git_config
+    UseKeychain yes
+    AddKeysToAgent yes
+    IdentityFile ~/.ssh/id_rsa
+ 
+ Host gpu1 gpu2 lab1 lab2 lab3 lab4 lab5
+    User ojm20
+    ProxyCommand ~/scripts/random-shell %h %p
+ 
+ Host gpu1
+    HostName gpu23.doc.ic.ac.uk
+ 
+ Host gpu2
+    HostName gpu20.doc.ic.ac.uk
+ 
+ Host lab1
+    HostName ray15.doc.ic.ac.uk
+ 
+ Host lab2
+    HostName ray03.doc.ic.ac.uk
+ 
+ Host lab3
+    HostName ray08.doc.ic.ac.uk
+ 
+ Host lab4
+    HostName edge18.doc.ic.ac.uk
+ 
+ Host lab5
+    HostName edge09.doc.ic.ac.uk
+ 
+ Host shell1 shell2 shell3 shell4 shell5
+    HostName %h.doc.ic.ac.uk
+    User ojm20
+ 
+ # We use a separate config file for git as to exclude from vscode remote ssh explorer 
+ Include ~/.ssh/git_config
