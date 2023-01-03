@@ -1,3 +1,6 @@
+# Add brew to path
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Custom terminal prompt
 PROMPT="%1~ %# "
 
@@ -5,7 +8,7 @@ PROMPT="%1~ %# "
 ssh-add --apple-load-keychain -q
 
 # Scripts
-export PATH="$PATH:~/scripts"
+export PATH="$PATH:$HOME/scripts"
 
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
