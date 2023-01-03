@@ -67,5 +67,6 @@
   "workbench.editor.untitled.hint": "hidden",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
-  "workbench.panel.defaultLocation": "right"
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "none"
 }
