@@ -1,0 +1,2 @@
+com.markskelton.one-dark-theme
+com.intellij.plugins.vscodekeymap
