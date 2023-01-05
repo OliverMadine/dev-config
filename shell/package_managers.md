@@ -1,0 +1,3 @@
+- [homebrew](https://docs.brew.sh/Installation)
+- [sdkman](https://sdkman.io/install)
+- [ghcup](https://formulae.brew.sh/formula/ghcup)
