@@ -21,5 +21,18 @@
     "command": "workbench.view.scm",
     "key": "shift+cmd+g",
     "when": "workbench.scm.active"
-  }
+  },
+  {
+    "key": "cmd+w",
+    "command": "workbench.action.closePanel",
+    "when": "panelFocus"
+  },
+  {
+    "key": "shift+cmd+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "cmd+q",
+    "command": "-workbench.action.quit"
+  },
 ]
