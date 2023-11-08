@@ -21,7 +21,7 @@
     {
       "key": "cmd+w",
       "command": "workbench.action.closePanel",
-      "when": "panelFocus"
+      "when": "panelFocus && !terminalFocus"
     },
     {
       "command": "-workbench.action.closeWindow",
