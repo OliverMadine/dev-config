@@ -6,7 +6,7 @@
     },
     {
       "command": "workbench.action.terminal.kill",
-      "key": "cmd+w",
+      "key": "cmd+q",
       "when": "terminalFocus"
     },
     {
@@ -21,11 +21,15 @@
     {
       "key": "cmd+w",
       "command": "workbench.action.closePanel",
-      "when": "panelFocus && !terminalFocus"
+      "when": "panelFocus"
     },
     {
       "command": "-workbench.action.closeWindow",
       "key": "shift+cmd+w",
+    },
+    {
+      "command": "-workbench.action.closeWindow",
+      "key": "cmd+w",
     },
     {
       "command": "-workbench.action.quit",
