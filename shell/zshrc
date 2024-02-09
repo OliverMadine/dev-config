@@ -25,3 +25,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # ghcup
 export PATH="$PATH:$HOME/.ghcup/bin"
+
+# Plugins
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
