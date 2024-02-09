@@ -1,46 +1,58 @@
 [
-  {
-    "command": "editor.action.revealDefinition",
-    "key": "cmd+;",
-    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    {
+      "command": "editor.action.revealDefinition",
+      "key": "cmd+;",
+      "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+      "command": "workbench.action.terminal.kill",
+      "key": "cmd+q",
+      "when": "terminalFocus"
+    },
+    {
+      "command": "workbench.action.focusPanel",
+      "key": "cmd+2"
+    },
+    {
+      "command": "workbench.view.scm",
+      "key": "shift+cmd+g",
+      "when": "workbench.scm.active"
+    },
+    {
+      "key": "cmd+w",
+      "command": "workbench.action.closePanel",
+      "when": "panelFocus"
+    },
+    {
+      "command": "-worw.closeWindow",
+      "key": "shift+cmd+w",
+    },
+    {
+      "command": "-workbench.action.closeWindow",
+      "key": "cmd+w",
+    },
+    {
+      "command": "-workbench.action.quit",
+      "key": "cmd+q",
+    },
+    {
+      "command": "workbench.files.action.collapseExplorerFolders",
+      "key": "alt+c",
+    },
+    {
+      "key": "alt+b",
+      "command": "git.checkout"
+    },
+    {
+      "key": "cmd+p",
+      "command": "extension.quickOpen.withPrefill",
   },
   {
-    "command": "workbench.action.terminal.kill",
-    "key": "cmd+q",
-    "when": "terminalFocus"
+    "key": "alt+s",
+    "command": "git.stashIncludeUntracked"
   },
   {
-    "command": "workbench.action.focusPanel",
-    "key": "cmd+2"
-  },
-  {
-    "command": "workbench.view.scm",
-    "key": "shift+cmd+g",
-    "when": "workbench.scm.active"
-  },
-  {
-    "key": "cmd+w",
-    "command": "workbench.action.closePanel",
-    "when": "panelFocus"
-  },
-  {
-    "command": "-workbench.action.closeWindow",
-    "key": "shift+cmd+w",
-  },
-  {
-    "command": "-workbench.action.closeWindow",
-    "key": "cmd+w",
-  },
-  {
-    "command": "-workbench.action.quit",
-    "key": "cmd+q",
-  },
-  {
-    "command": "workbench.files.action.collapseExplorerFolders",
-    "key": "alt+c",
-  },
-  {
-    "key": "alt+b",
-    "command": "git.checkout"
-  },
+    "key": "alt+w",
+    "command": "git-worktrees.worktree.list"
+  }
 ]
