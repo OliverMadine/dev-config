@@ -40,7 +40,7 @@
       "key": "alt+c",
     },
     {
-      "key": "alt+b",
+      "key": "shift+alt+b",
       "command": "git.checkout"
     },
     {
@@ -52,7 +52,130 @@
     "command": "git.stashIncludeUntracked"
   },
   {
-    "key": "alt+w",
+    "key": "shift+alt+t",
     "command": "git-worktrees.worktree.list"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+u",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "shift+alt+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "editor.action.showDefinitionPreviewHover"
+  },
+  {
+    "key": "shift+alt+y",
+    "command": "workbench.action.gotoLine"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "-workbench.action.gotoLine"
+  },
+  {
+    "key": "shift+alt+w",
+    "command": "scrollkey.up1",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "scrollkey.down1",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "-editor.action.pageUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "pageup",
+    "command": "-notebook.cell.cursorPageUp",
+    "when": "editorTextFocus && inputFocus && notebookEditorFocused"
+  },
+  {
+    "key": "pageup",
+    "command": "scrollLineUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+pageup",
+    "command": "-scrollLineUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "scrollLineDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+pagedown",
+    "command": "-scrollLineDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-scroll-faster.up",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-scroll-faster.down",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "scroll-faster.up",
+    "when": "editorTextFocus"
+  },
+  
+  {
+    "key": "pagedown",
+    "command": "scroll-faster.down",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pageup",
+    "command": "scrollkey.up1",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "scrollkey.down1",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "escape",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "jumpTo.lastCursor",
+        "removeSecondaryCursors",
+      ]
+    },
+    "when": "editorHasMultipleSelections && textInputFocus"
   }
-]
+  ]
